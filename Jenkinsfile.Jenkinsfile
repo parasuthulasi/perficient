@@ -15,7 +15,7 @@ pipeline {
             steps {
                 git branch: 'master',
                 //credentialsId: '12345-1234-4696-af25-123455',
-                url: 'https://github.com/Vinoth8778/Perficient.git'
+                url: 'https://github.com/parasuthulasi/perficient.git'
             }
         }
         stage('Deploy') {
