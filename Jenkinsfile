@@ -24,6 +24,21 @@ pipeline {
                     pom: 'pom.xml', goals: 'clean install'
                 )
             }
+ // for downloadin files           
+        rtDownload (
+    serverId: "Artifactory-1",
+    spec:
+        """{
+          "files": [
+            {
+              "pattern": "bazinga-repo/froggy-files/",
+              "target": "bazinga/,
+            }
+         ]
+        }"""
+            
+// for downloading files            
+)    
         }
     }
 }
