@@ -1,5 +1,10 @@
 ########### Edited by Thulasiraman ############
+########### Edited by Thulasiraman ############
+<<<<<<< HEAD
+=======
+########### Edited by Thulasiraman ############
 
+>>>>>>> 6c9feb6a4eee61e09cfca108051ecbffd28d6c02
 
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
